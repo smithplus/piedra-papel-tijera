@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2d3038;
+    background-image: url(images/background.jpg);
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+header {
+    background: rgba(29, 1, 77, 0.78);
+    padding: 20px;
+}
+
+
+header > h1 {
+    color: white;
+    text-align: center;
+    font-family: asap, sans-serif;
+
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 0px solid white;
+    background-color: rgba(30, 0, 80, 0.67);
+    border-radius: 50px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: asan, sans-serif;
+}
+
+.badge {
+    background: #ffc11e;
+    border-radius: 20px;
+    color: #320ca1;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 19px;
+    font-family: asap, sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 130px;
+    left: 350px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 130px;
+    right: 350px;
+}
+
+.result {
+
+    font-size: 40px;
+    color: white;
+
+}
+
+.result > p {
+
+    text-align: center;
+    font-weight: bold;
+    font-family: asap, sans-serif;
+}
+
+.choices {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.choice {
+    display: block;
+    border: 15px solid #768bff;
+    background: white;
+    border-radius: 50%;
+    padding: 24px;
+    margin: 10px 30px;
+    display: inline-block;
+
+
+}
+
+.choice:hover {
+    background: #f4f4f5;
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: asap, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.green-glow {
+    border: 15px solid #4dcc7d;
+    box-shadow: 0 0 20px #53ffb9;
+}
+
+.red-glow {
+    border: 15px solid #ff3fa7;
+    box-shadow: 0 0 20px #ff3fa7;
+
+}
+
+.gray-glow {
+    border: 15px solid #58e1ff;
+    box-shadow: 0 0 20px #58e1ff;
+
+}
